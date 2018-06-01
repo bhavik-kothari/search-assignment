@@ -1,0 +1,76 @@
+    .wrapper {
+        width: 100%;
+        margin: 0 auto;
+        font-family: sans-serif;
+    }
+    
+    .search-wrapper {
+        background: #45415c;
+        padding: 10px;
+        position: fixed;
+        left: 0;
+        z-index: 1;
+        right: 0;
+        top: 0;
+    }
+    
+    .search-wrapper input {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+        background: #45415c;
+        color: #fff;
+        border: none;
+        border-bottom: 1px solid #555;
+        font-size: 16px;
+    }
+    
+    .wrapper ul {
+        list-style: none;
+        padding: 0px;
+        margin: 0;
+        margin-top: 60px;
+    }
+    
+    .wrapper ul li {
+        padding: 10px 15px;
+        font-size: 12px;
+        overflow: hidden;
+    }
+    
+    .wrapper ul li:nth-child(even) {
+        background: #F7F7F7
+    }
+    
+    .wrapper ul li:nth-child(odd) {
+        background: #E7E7E7
+    }
+    
+    .wrapper ul li .name {
+        font-weight: 300;
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+    
+    .wrapper ul li .email {
+        margin-left: 10px;
+    }
+    
+    .wrapper .left {
+        position: relative;
+        float: left;
+    }
+    
+    .wrapper .right {
+        position: relative;
+        float: right;
+        width: 150px;
+    }
+    
+    @media screen and (max-width:500px) {
+        .left,
+        .right {
+            width: 100% !important;
+            margin-bottom: 10px;
+        }
+    }

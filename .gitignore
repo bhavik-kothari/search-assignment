@@ -1,10 +1,3 @@
-# See http://help.github.com/ignore-files/ for more about ignoring files.
-
-# compiled output
-/dist
-/tmp
-/out-tsc
-
 # dependencies
 /node_modules
 
@@ -16,13 +9,6 @@
 *.launch
 .settings/
 *.sublime-workspace
-
-# IDE - VSCode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
 
 # misc
 /.sass-cache
@@ -37,3 +23,16 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+src/app/app.component.js
+src/app/app.component.js.map
+src/app/app.module.js
+src/app/app.module.js.map
+src/app/data.js
+src/app/filter-list.pipe.js
+src/app/filter-list.pipe.js.map
+src/app/filter-list.pipe.spec.ts
+src/app/filter-list.pipe.ts
+src/environments/environment.js
+src/environments/environment.js.map
+src/main.js
+src/main.js.map
